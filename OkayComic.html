@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            img {
+            image-rendering: pixelated;
+            width: 900px; 
+            }
+            h1{
+            font-size: 200px;
+            color: white;
+            
+            }
+        </style>
+    </head>
+  
+  
+
+
+
+
+    <body style="background-color:black;">
+
+      
+      
+      <center id="SQ">
+        <h1>OKAY.</h1>
+      </center>
+      <script>
+          const SQ=document.getElementById("SQ");
+          const maxpage=7
+          
+          for (let i = 1; i <= maxpage; i++) {
+          
+              var img = document.createElement("img");
+              img.src="ImageSQ1/pg"+i+".png";
+              SQ.appendChild(img);
+              }
+          console.log("OKAY.")
+      </script>
+  </body>
+
+</html>
+
+
+
+
